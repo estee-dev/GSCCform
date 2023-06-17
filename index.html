@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="headword">Applicant's Information</h1>
+        <p class="sub-headword">To be completed with the child/ward</p>
+
+        <form>
+            <div class="form-group" id="fill">
+              <input id="input" type="text" class="form-control" placeholder="Full name">
+            </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input id="input" type="text" class="form-control" placeholder="Place of Birth">
+                    </div>
+                    <div class="col-3" id="input1">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Male</label>
+                    </div>
+                    <div class="col-3" id="input1">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Female</label>
+                    </div>
+                </div>
+
+                <div class="form-group" id="fill">
+                    <input id="input" type="text" class="form-control" placeholder="Last class passed">
+                </div>    
+                
+                <div class="form-group" id="fill">
+                    <input id="input" type="text" class="form-control" placeholder="Date of Birth">
+                </div>    
+
+                <div class="row">
+                    <div class="col-3">
+                        <input id="input" type="text" class="form-control" placeholder="Town of Origin">
+                    </div>
+                    <div class="col-3">
+                        <input id="input" type="text" class="form-control" placeholder="Residential Address">
+                    </div>
+                    <div class="col-3">
+                        <input id="input" type="text" class="form-control" placeholder="Local Government Area">
+                    </div>
+                    <div class="col-3">
+                        <input id="input" type="text" class="form-control" placeholder="State">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input id="input" type="text" class="form-control" placeholder="Occupation of parent">
+                    </div>
+                    <div id="Undertaking" class="col-6">
+                        <h5>Undertaking:</h5>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">I agree</label>
+                        </div>
+                        <div>by ticking this, I hereby certify that all the information given above are true to the best of my knowledge, and I should be disqualified if at any point they are found to be false. I also agree to be of good behavior and abide by the school rules and regulations if admitted.</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <input id="input" type="text" class="form-control" placeholder="Previous School Attended">
+                    </div>
+                    <div class="col-6">
+                        <input id="input" type="text" class="form-control" placeholder="Address of Previous School">
+                    </div>
+                </div>
+
+                <div class="form-group" id="fill">
+                    <input id="input" type="text" class="form-control" placeholder="Which Year">
+                </div>
+
+                <div class="form-group" id="fill">
+                    <input id="input" type="text" class="form-control" placeholder="Last Position in class">
+                </div>
+
+        </form>   
+
+        <h1 class="headword">Family Information</h1>
+        <p class="sub-headword">To be completed by the parent or guardian</p>
+
+        <form>
+
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Relationship to Child">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Parent/Guardian's name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Parent/Guardian's phone number">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Parent/Guardian's Email">
+                </div>
+            </div>
+
+            <div class="form-group" id="fill">
+                <input id="input" type="text" class="form-control" placeholder="Parent/Guardian's Office Address">
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Parents/Guardian's Town/LGA of Origin">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Parents/Guardian's State">
+                </div>
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Religion/Church/Fellowship Affiliations (if any)">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Present Post/Position (in Church/Fellowship)">
+                </div>
+            </div>
+
+            <div class="form-group" id="fill">
+                <input id="input" type="text" class="form-control" placeholder="Full name">
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Are you Born again?">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="If yes, When?">
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="Undertaking" class="col-6">
+                    <p style="font-size: 15px; color: rgba(0, 0, 0, 0.593);">Does your child suffer from any health challenges</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1">Yes</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1">No</label>
+                        </div>    
+                    </div>
+                </div>
+                
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Applicant's Mother's name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Mother's Occupation">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Mother's Phone Number">
+                </div>
+            </div>
+
+        </form>   
+
+        <h1 class="headword">Additional Information</h1>
+
+        <form>
+
+            <div class="form-group" id="fill">
+                <input id="input" type="text" class="form-control" placeholder="State any particular drug/regular medication the child is on">
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Which Church does the child attend">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Any other fellowship/religious affiliation? (Please state)">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="Give a brief description of the child’s character which would help us in his/her training">
+                </div>
+                <div class="col-6">
+                    <input id="input" type="text" class="form-control" placeholder="State any known anti-social behavior of the child">
+                </div>
+            </div>
+
+            <div id="Undertaking" class="form-group" style="align-items: end;">
+                <h5 style="color: rgba(0, 0, 0, 0.63);">Undertaking:</h5>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">I agree</label>
+                </div>
+                <div style="color: rgba(0, 0, 0, 0.615); margin-top: 10px;">by ticking this, I hereby certify that all the information given above are true to the best of my knowledge, and I should be disqualified if at any point they are found to be false. I also agree to be of good behavior and abide by the school rules and regulations if admitted.</div>
+            </div>
+
+        </form> 
+
+        <button id="submit" class="btn btn-outline-primary btn-lg px-5" type="submit">Submit</button>
+
+    </div>
+
+    <footer id="sticky-footer" class="flex-shrink-20 py-5 text-white-50">
+        <div class="text-center" style="margin-top: 100px;">
+            <small>Copyright &copy; Ogodo Chimbuzor </small>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+.container {
+    padding-top: 30px;
+}
+
+.headword {
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.sub-headword {
+    font-size: 20px;
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#fill {
+    margin-top: 50px;
+}
+
+#input{
+    border: none;
+    border-bottom: 2px solid gray;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#input1{
+    margin-top: 70px;
+}
+
+#Undertaking {
+    padding: 30px;
+    font-size: 13px;
+    
+}
+
+#submit {
+    height: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.737);
+}
+
+small {
+    color: black;
+}
