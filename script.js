@@ -8,6 +8,15 @@ $(document).ready(function(){
         $('p').hide();
         $('#submit1').hide();
 
+    });
+
+    $('#submit').click(function(){
+
+        $('form').show();
+        $('.popup').hide();
+        $('h1').show();
+        $('p').show();
+        $('#submit1').show();
 
     });
 })
